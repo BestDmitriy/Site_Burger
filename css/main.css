@@ -174,7 +174,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: 0 center;
 	background-size: cover;
-	padding: 100px 100px 120px;
+	padding: 98px 100px 118px 101px;
 	margin-bottom: 80px;
 }
 
@@ -182,10 +182,10 @@ header {
 	color: #FFF;
 	font-size: 60px;
 	font-weight: 900;
-	line-height: 1.6;
+	line-height: 1.4;
 	text-transform: uppercase;
 	margin-top: 0;
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 	}
 
  .banner-title span {
@@ -200,17 +200,17 @@ header {
 	line-height: 1.5;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 5px 0;
+	padding: 4px 0;
 }
 
 .banner-text {
 	font-family: 'Open Sans', sans-serif;
 	color: #FAF9F9;
 	font-size: 15px;
-	line-height: 1.6;
+	line-height: 1.4;
 	max-width: 353px;
 	margin-top: 0;
-	margin-bottom: 35px;
+	margin-bottom: 38px;
 }
 
 .banner-link {
@@ -220,7 +220,7 @@ header {
 	border-radius: 5px;
 	text-transform: uppercase;
 	font-size: 14px;
-	padding: 20px 27px;
+	padding: 21px 25px;
 	border: 1px solid #FBB731;
 	transition: 0.6s;
 }
@@ -239,6 +239,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 34px;
+	padding-top: 5px;
 }
 
 .menu-title {
@@ -254,7 +255,7 @@ header {
 	border: 1px solid #DEDEDE;
 	color: #443737;
 	font-size: 15px;
-	padding: 13px 30px;
+	padding: 13px 30px 13px 31px;
 	appearance: none;
 	flex-basis: 279px;
 	background-image: url(../images/arrow.svg);
@@ -311,7 +312,7 @@ header {
 	border: none;
 	border-radius: 5px;
 	background-color: #FBB731;
-	padding: 10px 32px;
+	padding: 12px 32px;
 	margin: 0 auto;
 	cursor: pointer;
 	transition: 0.6s;
@@ -337,12 +338,21 @@ header {
 	text-transform: uppercase;
 }
 
+.menu-other {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.menu-header-other {
+	padding-top: 0;
+}
+
 .footer {
     background: #1E2F40;
     color: #fff;
     padding-top: 117px;
     padding-bottom: 106px;
-	margin-top: 140px;
+	margin-top: 137px;
 }
 
 .footer-box {
@@ -356,16 +366,13 @@ header {
     height: 56px;
 }
 
-/* .footer-item {
-    flex: 0 0 auto;
-} */
-
 .footer-item h2 {
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 19px;
+    margin-bottom: 16px;
 	margin-top: 0;
+	margin-right: 14px;
 	line-height: 1.5;
 }
 
@@ -395,7 +402,8 @@ header {
 }
 
 .footer-lis-tel {
-	margin-top: 0;
+	margin-top: 4px;
+    margin-right: 13px;
 }
 
 .footer-lis-tel li {
@@ -416,6 +424,7 @@ header {
 .footer-list {
 	padding-left: 0;
 	list-style-type: none;
+	padding-right: 0;
 }
 
 .button-up {
@@ -460,15 +469,15 @@ header {
 .content {
     color: #FAF9F9;
     flex: 0 0 580px;
-    padding-top: 170px;
-    padding-bottom: 170px;
+    padding-top: 158px;
+    padding-bottom: 164px;
 }
 
 .content-title {
     font-size: 120px;
     font-weight: 800;
     text-transform: uppercase;
-    line-height: 120px;
+    line-height: 1.2;
     margin-bottom: 0;
 	margin-top: 0;
 }
@@ -486,9 +495,11 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 19px;
-    line-height: 1.4;
+    line-height: 1.5;
+	letter-spacing: -0.03em;
     color: #DEDEDE;
-    margin-bottom: 42px;
+    margin-bottom: 47px;
+	margin-top: 24px;
     /* max-width: 524px; */
 }
 
@@ -500,7 +511,7 @@ header {
     border-radius: 5px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 1.1;
     text-align: center;
     text-transform: uppercase;
     padding: 20px 45px;
@@ -508,6 +519,11 @@ header {
 	text-decoration: none;
 	transition: 0.3s;
     /* max-width: 170px; */
+}
+.promo a {
+	line-height: 1.4;
+	padding: 18px 46px;
+    margin-top: 0px;
 }
 
 .content-link:hover {
@@ -537,11 +553,13 @@ header {
     width: 829px;
     position: absolute;
     right: -168px;
+	top: -12px;
 }
 
 .promo {
     padding-top: 186px;
-    padding-bottom: 46px;
+    padding-bottom: 23px;
+	padding-right: 27px;
 }
 
 .promo-left,
@@ -556,12 +574,14 @@ header {
 
 .promo-left {
     background-image: url(../images/burger-left.png);
-    padding: 116px 50px;
+    padding: 120px 50px 118px 50px;
+	height: 100%;
 }
 
 .promo-right {
     background-image: url(../images/burger-right.png);
-    padding: 116px 50px;
+    padding: 109px 50px 100px 50px;
+	height: 100%;
 }
 
 .sale {
@@ -570,9 +590,9 @@ header {
     text-transform: uppercase;
     border-radius: 14px;
     background: #F37335;
-    padding: 5px 19px;
+    padding: 7px 21px;
     display: inline-block;
-    margin-bottom: 3px;
+    margin-bottom: 7px;
 	margin-top: 0;
 }
 
@@ -587,8 +607,11 @@ header {
     font-family: 'Open Sans', sans-serif;
     color: #FAF9F9;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 1.4;
+	letter-spacing: -0.02em;
+	margin-top: 14px;
 	margin-bottom: 0;
+	margin-right: 0;
 }
 
 .promo-left .promo-description {
@@ -598,6 +621,7 @@ header {
 .promo-right .promo-description {
     max-width: 300px;
     margin-bottom: 20px;
+    line-height: 1.6;
 }
 
 .free {
@@ -613,7 +637,9 @@ header {
     padding-top: 117px;
     padding-bottom: 106px;
 }
-
+.footer-index {
+	margin-top: 162px;
+}
 .logo {
     width: 63px;
     height: 56px;
@@ -789,6 +815,9 @@ header {
 	.header {
 		gap: 20px;
 	}
+	.menu-grid-title {
+		font-size: 27px;
+	}
 	.menu-other .container {
 		padding-right: 0;
 	}
@@ -832,7 +861,7 @@ header {
 		margin-bottom: 30px;
 	}
 	.menu-title {
-		font-size: 38px;
+		font-size: 33px;
 	}
 	.menu-select {
 		flex-basis: 136px;
@@ -841,11 +870,14 @@ header {
 		background-position: 91% center;
 	}
 	.menu-grid-cover {
-		height: 56vh;
+		height: 34vh;
 		margin-bottom: 10px;
 	}
 	.menu-grid-cover img {
 		height: 100%;
+	}
+	.menu-grid-title {
+		font-size: 27px;
 	}
 	.menu-grid-price {
 		font-size: 20px;
